@@ -1,13 +1,13 @@
+import "./App.css";
+import About from "./components/About/About";
 
-import './App.css';
-
-import Navbar from './components/Navbar/Navbar';
+import Navbar from "./components/Navbar/Navbar";
 
 function App() {
   return (
     <div className="App">
-      <Navbar/>
-     
+      <Navbar />
+      <About />
     </div>
   );
 }

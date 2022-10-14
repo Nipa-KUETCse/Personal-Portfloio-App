@@ -3,7 +3,8 @@ import "./about.css";
 import images from "../Navbar/image/Untitled.jpeg"
 
 const About = () => {
-    
+   return(
+     
     <div className="about">
       <div className="main">
         <img src={images} alt="" />
@@ -23,6 +24,7 @@ const About = () => {
       </div>
     </div>
    
+   )
 }
 
 export default About;

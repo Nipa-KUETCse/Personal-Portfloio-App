@@ -2,7 +2,8 @@ import React from "react";
 import "./service.css"
 
 const Service = () => {
-    <div className="service">
+    return(
+        <div className="service">
       <div className="title">
         <h2>Our Services</h2>
       </div>
@@ -52,6 +53,7 @@ const Service = () => {
         </div>
       </div>
     </div>
+    )
 }
 
 export default Service;

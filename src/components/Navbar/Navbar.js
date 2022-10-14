@@ -1,9 +1,9 @@
 import React from "react";
-import "./navbar.css"
+import "./navbar.css";
 
 const Navbar = () => {
   return (
-    <div class="hero">
+    <div className="hero">
       <nav>
         <h2 className="logo">
           Portfo<span>lio</span>
@@ -25,10 +25,24 @@ const Navbar = () => {
             <a href="#">Contact Us</a>
           </li>
         </ul>
-        <a href="#" class="btn">
+        <a href="#" className="btn">
           Subscribe
         </a>
       </nav>
+
+      <div className="content">
+        <h4>hello, My name is</h4>
+        <h1>
+          Anasua <span>Acharjya</span>
+        </h1>
+        <h3>I'am a Web Developer</h3>
+        <div className="newslatter">
+          <form>
+            <input type="email" id="nail" placeholder="Enter Your Email" />
+            <input type="submit" name="submit" value="Lets Start" />
+          </form>
+        </div>
+      </div>
     </div>
   );
 };
